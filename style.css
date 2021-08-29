@@ -7,7 +7,7 @@
   body{
     width: 100vw;
     height: 100vh;
-    background-image: url("https://cdn.discordapp.com/attachments/879313722101878855/879459024549056542/background.gif");
+    background-image: url("https://cdn.discordapp.com/attachments/875738310847393872/881479564499513374/CompetentSardonicGroundbeetle-max-1mb.gif");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Whitney', sans-serif;
@@ -178,7 +178,7 @@
     text-align: center;
     border: none;
     outline: none;
-    background-color: #b6a50b;
+    background-color: #147ed4;
     color: white;
     cursor: pointer;
   }
