@@ -15,10 +15,7 @@
     user-select: none;
   }
   
-  ::-webkit-scrollbar{
-    display: none;
-  }
-  
+
   .position{
     position: absolute;
     width: 100vw;
